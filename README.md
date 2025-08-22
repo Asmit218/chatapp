@@ -1,92 +1,68 @@
-Chat Application
-A full-stack, real-time chat application built with the MERN stack and Socket.IO. This project features user authentication (login/register) and seamless instant messaging.
+# Chat App 
+A real-time chat application built with the **MERN stack** and **Socket.IO**.  
 
-🌐 Live Demo
-You can try out the live application here:
-https://chatapp-sandy-tau.vercel.app/
+👉 **Live Demo:** [Chat App](https://chatapp-sandy-tau.vercel.app)
 
-✨ Features
-User Authentication: Secure login and registration functionality.
+---
 
-Real-Time Messaging: Instant, bidirectional communication between users using Socket.IO.
+## 🚀 Features
+- 🔑 User authentication (Sign up / Login)
+- 💬 Real-time messaging with **Socket.IO**
+- 🟢 Online/offline user status
+- 📱 Responsive UI
 
-MongoDB Integration: Data persistence for user information.
+---
 
-RESTful API: A robust backend to handle user requests.
+## 🛠 Tech Stack
+**Frontend:** React, Vite, TailwindCSS, Vercel  
+**Backend:** Node.js, Express.js, MongoDB, Render  
+**Real-time:** Socket.IO  
 
-💻 Technologies Used
-This application is built with a modern stack of technologies.
+---
 
-Frontend:
+## 📂 Project Setup
 
-Vite-React
+### 1. Clone the repository
 
-Tailwind CSS
+```bash
+git clone https://github.com/Asmit218/chatapp
+cd chat-app
+```
 
-Backend:
+### 2. Install dependencies
 
-Node.js
+Frontend
 
-Express.js
+```bash
+cd client
+npm install
+npm run dev
+```
 
-MongoDB
+Backend
 
-Real-Time Communication:
+```bash
+cd server
+npm install
+npm start
+```
 
-Socket.IO
+3. Environment Variables
+Create a .env file in the server directory and add:
 
-Deployment:
+```
+PORT=5000
+MONGO_URI=your_mongo_db_connection
+JWT_SECRET=your_secret_key
+```
+
+📦 Deployment
 
 Frontend: Vercel
-
 Backend: Render
 
-🚀 Installation and Local Setup
-To get a copy of this project up and running on your local machine, follow these simple steps.
+📸 Screenshots
 
-Prerequisites
-Node.js (v18 or higher)
-
-npm
-
-A MongoDB database (local or cloud-based)
-
-Backend (Server) Setup
-Navigate to the server directory.
-
-```Bash
-
-cd server
-Install the required Node.js packages.
-```
-```Bash
-
-npm install
-Create a .env file in the server directory and add your MongoDB connection string and other environment variables.
-
-PORT=5000
-MONGODB_URI=<Your MongoDB Connection String>
-FRONTEND_URL=http://localhost:5173  # Or your frontend dev URL
-Start the backend server.
-```
-```Bash
-
-npm run start
-Frontend (Client) Setup
-Open a new terminal and navigate to the client directory.
-```
-```Bash
-
-cd client
-Install the required npm packages.
-```
-```Bash
-
-npm install
-Start the frontend development server.
-```
-```Bash
-
-npm run dev
-The application should now be running on http://localhost:5173 and connected to your local backend.
-```
+![quickchat 1 ](https://github.com/user-attachments/assets/ef7c483b-8134-41ba-a3fa-a3730b40627d)
+![quickchat 2 ](https://github.com/user-attachments/assets/198552bb-658e-44c4-a33a-392767984d78)
+![quickchat 3](https://github.com/user-attachments/assets/a24c1f9b-b4f0-4412-96c1-727e36c32b3c)
