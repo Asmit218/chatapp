@@ -54,12 +54,12 @@ A MongoDB database (local or cloud-based)
 Backend (Server) Setup
 Navigate to the server directory.
 
-Bash
+```Bash
 
 cd server
 Install the required Node.js packages.
-
-Bash
+```
+```Bash
 
 npm install
 Create a .env file in the server directory and add your MongoDB connection string and other environment variables.
@@ -68,24 +68,25 @@ PORT=5000
 MONGODB_URI=<Your MongoDB Connection String>
 FRONTEND_URL=http://localhost:5173  # Or your frontend dev URL
 Start the backend server.
-
-Bash
+```
+```Bash
 
 npm run start
 Frontend (Client) Setup
 Open a new terminal and navigate to the client directory.
-
-Bash
+```
+```Bash
 
 cd client
 Install the required npm packages.
-
-Bash
+```
+```Bash
 
 npm install
 Start the frontend development server.
-
-Bash
+```
+```Bash
 
 npm run dev
 The application should now be running on http://localhost:5173 and connected to your local backend.
+```
